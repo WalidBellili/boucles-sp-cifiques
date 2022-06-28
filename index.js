@@ -37,13 +37,91 @@
 
 // 04 - Filter Even
 
-const numbers = [1, 2, 3, 4, 5, 6, 7,8]
-const event = numbers.filter((number, i) => {
+// const numbers = [1, 2, 3, 4, 5, 6, 7,8]
+// const event = numbers.filter((number, i) => {
     
-     if (number % 2 === 0) {
-        console.log("EVEN !"+number);
-    } else {
-        console.log("ODD !" + number);
-    }
-})
+//      if (number % 2 === 0) {
+//         console.log("EVEN !"+number);
+//     } else {
+//         console.log("ODD !" + number);
+//     }
+// })
 // console.log(numbers);
+
+// exo5
+
+// const cakes = [
+// 	{
+// 		name: "cake",
+// 		flavor: "vanilla",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "brownie",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "pie",
+// 		flavor: "strawberry",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "muffin",
+// 		flavor: "pistachio",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "donut",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// ]
+
+// const chocolate = cakes.filter((cake) => {
+    
+//     if ( cake.flavor ==="chocolate") {
+//         return cake   
+//     }
+
+// }).map((cake) => {
+//      cake.status = "sold Out !"
+//      return cake
+// })
+// console.log(cakes);
+// console.log(chocolate);
+
+// exo6
+
+// const cakes = [
+// 	{
+// 		name: "cake",
+// 		flavor: "vanilla",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "brownie",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "pie",
+// 		flavor: "strawberry",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "muffin",
+// 		flavor: "pistachio",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "donut",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// ]
+// const pie = cakes.find((cake) => {
+    
+//     return cake.name === "pie"
+// })
+// console.log(pie);
