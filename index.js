@@ -20,7 +20,12 @@ const longNames = [
 		lastName: "Smith"
 	}
 ]
-const shortNames = longNames.map((fullName) => {
-    return fullName= fullName.firstName
+const shortNames = longNames.map((longName) => {
+    console.log(longName);
+    return {name : `${longName.firstName} ${longName.lastName}`}
 }) 
 console.log(shortNames);
+
+// exo3
+
+// const array = [1, "toto", 34, "Javascript",]
