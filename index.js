@@ -125,3 +125,35 @@
 //     return cake.name === "pie"
 // })
 // console.log(pie);
+
+// 07 - Factorielle forEach
+
+// const numbers = [1,2,3,4,5,6,7,8,9]
+
+// let result = 1
+// numbers.forEach((num, index) => {
+//     result *=  num
+// })
+// console.log(result);
+
+
+// exo8
+const elements = [0,1,2,3,4,5,6,7]
+elements.forEach((element) => {
+    //  element = []
+    // elements.forEach((element) => {
+    // })
+    if (true) {
+        box1 =`[ ][x ][ ][x ][ ][x ][ ][ x]`
+        console.log(box1, box2);
+    } 
+    // else {
+    //     let box2 = []
+    //     box2 =`[x ][ ][ x][ ][x ][ ][x ][ ]`
+    //     console.log(box2);
+    // }
+    
+    
+    
+    
+})
