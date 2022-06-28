@@ -138,22 +138,32 @@
 
 
 // exo8
-const elements = [0,1,2,3,4,5,6,7]
-elements.forEach((element) => {
+// const elements = [0,1,2,3,4,5,6,7]
+// elements.forEach((element) => {
     //  element = []
     // elements.forEach((element) => {
     // })
-    if (true) {
-        box1 =`[ ][x ][ ][x ][ ][x ][ ][ x]`
-        console.log(box1, box2);
-    } 
+    // if (true) {
+    //     box1 =`[ ][x ][ ][x ][ ][x ][ ][ x]`
+    //     console.log(box1, box2);
+    // } 
     // else {
     //     let box2 = []
     //     box2 =`[x ][ ][ x][ ][x ][ ][x ][ ]`
     //     console.log(box2);
     // }
     
-    
-    
-    
+// })
+// exo9
+
+const array = [12, 55, "hello", true, { isStudent: false }, 3]
+const numbers = array.filter((number, i) => {
+    // console.log(number);
+    if (number> 0) {
+        return number
+    } else if (number === true){
+        return number - true
+    }
 })
+console.log(numbers);
+
