@@ -10,22 +10,27 @@
 
 // exo2
 
-const longNames = [
-	{
-		firstName: "Jane",
-		lastName: "Doe"
-	},
-	{
-		firstName: "John",
-		lastName: "Smith"
-	}
-]
-const shortNames = longNames.map((longName) => {
-    console.log(longName);
-    return {name : `${longName.firstName} ${longName.lastName}`}
-}) 
-console.log(shortNames);
+// const longNames = [
+// 	{
+// 		firstName: "Jane",
+// 		lastName: "Doe"
+// 	},
+// 	{
+// 		firstName: "John",
+// 		lastName: "Smith"
+// 	}
+// ]
+// const shortNames = longNames.map((longName) => {
+//     console.log(longName);
+//     return {name : `${longName.firstName} ${longName.lastName}`}
+// }) 
+// console.log(shortNames);
 
 // exo3
 
-// const array = [1, "toto", 34, "Javascript",]
+// const array = [1, "toto", 34, "Javascript", 8]
+// const numbers = array.filter((number, i) => {
+//     // console.log(number);
+//     return number> 0
+// })
+// console.log(numbers);
