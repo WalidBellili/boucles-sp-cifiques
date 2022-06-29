@@ -138,23 +138,40 @@
 
 
 // exo8
-const elements = [0,1,2,3,4,5,6,7]
-elements.forEach((element) => {
+// const elements = [0,1,2,3,4,5,6,7]
+// elements.forEach((element) => {
      
-    elements.forEach((element) => {
-    })
-    if (true) {
-        box1 =`[ ][x ][ ][x ][ ][x ][ ][ x]`
-        console.log(box1);
-    } 
-    elements.forEach((element) => {
-        if (true) {
-            box2 =`[x ][ ][x ][ ][x ][ ][x ][ ]`
-            console.log(box2);
+//     elements.forEach((element) => {
+//     })
+//     if (true) {
+//         box1 =`[ ][x ][ ][x ][ ][x ][ ][ x]`
+//         console.log(box1);
+//     } 
+//     elements.forEach((element) => {
+//         if (true) {
+//             box2 =`[x ][ ][x ][ ][x ][ ][x ][ ]`
+//             console.log(box2);
 
-        } 
+//         } 
+//     })
+// })
+
+const length = [0,1,2,3,4,5,6,7]
+length.forEach((line, i) => {
+
+    let stringLine = `Ligne: ${i}`
+    length.forEach((square, j) => {
+        
+
+        if ((i + j) % 2 === 0) {
+            stringLine = stringLine + `[ ]`
+        } else {
+            stringLine = stringLine + `[x ]`
+        }
+
     })
-})
+    console.log(stringLine);
+}) 
 
 // exo9
 
